@@ -1,0 +1,122 @@
+[2026-10-22 10:35:49] SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 20
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(20): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(156): PdoMySql::OpenDatabase(Array)
+#2 C:\laragon\www\bescms\backend\Services\Authentication-Module\Authentication.Module.Model.php(38): PdoMySql::ExecuteDML_Query(Array, 'CALL User_Login...', Array)
+#3 C:\laragon\www\bescms\backend\Services\Authentication-Module\Authentication.Module.Controller.php(26): Authentication_Module_Model::login(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Authentication_Module_Controller::{closure}(Array)
+#5 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#6 C:\laragon\www\bescms\backend\index.php(16): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#7 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#8 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#9 {main}
+
+[2026-10-22 12:05:20] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bescms.council_officials' doesn't exist in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 157
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(157): PDO->prepare('SELECT id, coun...')
+#1 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Model.php(82): PdoMySql::ExecuteDML_Query(Array, 'SELECT id, coun...', Array)
+#2 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Controller.php(11): Officials_Module_Model::list(Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Officials_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(24): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 {main}
+
+[2026-10-22 12:05:26] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bescms.council_officials' doesn't exist in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 157
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(157): PDO->prepare('SELECT id, coun...')
+#1 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Model.php(82): PdoMySql::ExecuteDML_Query(Array, 'SELECT id, coun...', Array)
+#2 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Controller.php(11): Officials_Module_Model::list(Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Officials_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(24): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 {main}
+
+[2026-10-22 12:05:28] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bescms.council_officials' doesn't exist in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 157
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(157): PDO->prepare('SELECT id, coun...')
+#1 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Model.php(82): PdoMySql::ExecuteDML_Query(Array, 'SELECT id, coun...', Array)
+#2 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Controller.php(11): Officials_Module_Model::list(Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Officials_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(24): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 {main}
+
+[2026-10-22 12:05:33] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bescms.council_officials' doesn't exist in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 157
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(157): PDO->prepare('SELECT id, coun...')
+#1 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Model.php(82): PdoMySql::ExecuteDML_Query(Array, 'SELECT id, coun...', Array)
+#2 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Controller.php(11): Officials_Module_Model::list(Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Officials_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(24): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 {main}
+
+[2026-10-22 12:06:03] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bescms.council_officials' doesn't exist in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 157
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(157): PDO->prepare('SELECT id, coun...')
+#1 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Model.php(82): PdoMySql::ExecuteDML_Query(Array, 'SELECT id, coun...', Array)
+#2 C:\laragon\www\bescms\backend\Services\Officials-Management-Module\Officials.Module.Controller.php(11): Officials_Module_Model::list(Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Officials_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(24): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 {main}
+
+[2026-10-22 13:00:47] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_pwd' in 'field list' in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 128
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(128): PDO->prepare('INSERT INTO res...')
+#1 C:\laragon\www\bescms\backend\Services\Resident-Management-Module\Resident.Module.Model.php(178): PdoMySql::ExecuteDML_NonQuery(Array, 'INSERT INTO res...', Array)
+#2 C:\laragon\www\bescms\backend\Services\Resident-Management-Module\Resident.Module.Controller.php(11): Resident_Module_Model::add(Array, Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Resident_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(20): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 {main}
+
+[2026-10-24 11:37:06] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_pwd' in 'field list' in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 128
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(128): PDO->prepare('INSERT INTO res...')
+#1 C:\laragon\www\bescms\backend\Services\Resident-Management-Module\Resident.Module.Model.php(178): PdoMySql::ExecuteDML_NonQuery(Array, 'INSERT INTO res...', Array)
+#2 C:\laragon\www\bescms\backend\Services\Resident-Management-Module\Resident.Module.Controller.php(11): Resident_Module_Model::add(Array, Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Resident_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(20): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 {main}
+
+[2026-10-24 12:31:26] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\bescms\backend\Services\Certificate-Processing-Module\CertificateProcessing.Module.View.php on line 27
+Stack trace:
+#0 [internal function]: PdoMySql::{closure}(8192, 'htmlspecialchar...', 'C:\\laragon\\www\\...', 27)
+#1 C:\laragon\www\bescms\backend\Services\Certificate-Processing-Module\CertificateProcessing.Module.View.php(27): htmlspecialchars(NULL)
+#2 C:\laragon\www\bescms\backend\Services\Certificate-Processing-Module\CertificateProcessing.Module.Controller.php(37): CertificateProcessing_Module_View::printHtml(Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): CertificateProcessing_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(32): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 C:\laragon\www\bescms\backend\WorkflowSmokeRouter.php(3): require('C:\\laragon\\www\\...')
+#9 {main}
+
+[2026-10-27 06:07:10] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bescms.password_reset_requests' doesn't exist in C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php on line 128
+Stack trace:
+#0 C:\laragon\www\bescms\backend\Libraries\PdoMySql.Coderstation.php(128): PDO->prepare('DELETE FROM pas...')
+#1 C:\laragon\www\bescms\backend\Services\Authentication-Module\Authentication.Module.Model.php(422): PdoMySql::ExecuteDML_NonQuery(Array, 'DELETE FROM pas...')
+#2 C:\laragon\www\bescms\backend\Services\Authentication-Module\Authentication.Module.Controller.php(31): Authentication_Module_Model::requestPasswordReset(Array)
+#3 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(225): Authentication_Module_Controller::{closure}(Array)
+#4 C:\laragon\www\bescms\backend\Libraries\Route.Coderstation.php(137): Route::dispatch()
+#5 C:\laragon\www\bescms\backend\index.php(16): Route::forward('C:\\laragon\\www\\...', Object(Closure))
+#6 C:\laragon\www\bescms\backend\Libraries\Error.Handler.Coderstation.php(13): {closure}()
+#7 C:\laragon\www\bescms\backend\index.php(14): Error_Handler::handle(Object(Closure), 'Main Controller')
+#8 {main}
+
