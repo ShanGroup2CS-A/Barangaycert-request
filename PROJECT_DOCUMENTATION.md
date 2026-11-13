@@ -17,13 +17,12 @@ Below is a simplified diagram of how the frontend, backend, and database connect
 •Feature Traceability Matrix
 This matrix proves that all code commits are accounted for and linked to the original project requirements.*
 | Feature Name | Issue # | Linked Commit / PR | Status |
-| Backend Authentication | #2 | `Commit: a1b2c3d` | Done |
-| Certificate Services | #3 | `Commit: e4f5g6h` | Done |
-| Request Services (CRUD) | #4 | `Commit: i7j8k9l` | Done |
-| Resident Management | #5 | `Commit: m0n1o2p` | Done |
-| Official Management | #6 | `Commit: q3r4s5t` | Done |
-| Frontend UI & .htaccess | #7 | `Commit: u6v7w8x` | Done |
-| Info Display Adjustments | #8 | `Commit: y9z0a1b` |  Done |
+| Backend Authentication | #1 | `Commit: 05b3a3a` | Done |
+| Certificate Request Services | #2 | `Commit: 70d75d3` | Done |
+| Request Services (CRUD) | #3 | `Commit: 241c564` | Done |
+| Fronted UI & .htaccess | #4 | `Commit: c16500b` | Done |
+| Service Authentication | #5 | `Commit: 05b3a3a` | Done |
+| Certificate Services | #6 | `Commit: u6v7w8x` | Done |
 
 •Lessons Learned
 Process Improvement: In future sprints or projects, the Project Board will be utilized from Day 1 to ensure real-time tracking of tasks and commits. 
